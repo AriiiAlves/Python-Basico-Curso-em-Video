@@ -1,0 +1,7 @@
+s = input('Digite um valor:')
+print(type(s))
+print('Numérico:', s.isnumeric())
+print('Alfabético:', s.isalpha())
+print('Alfanumérico:', s.isalnum())
+print('Somente maiúsculas:', s.isupper())
+print('Somente minúsculas:', s.islower())

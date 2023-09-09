@@ -1,0 +1,5 @@
+n = input('Digite um valor:')
+print('Numérico:', n.isnumeric())
+print('Alfabético:', n.isalpha())
+print('Alfanumérico:', n.isalnum())
+print('Somente espaço:', n.isspace())
